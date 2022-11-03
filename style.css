@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(36, 100%, 99%);
+}
+
+.navbar {
+    position: sticky;
+    margin-top: 93px;
+    width: 1088px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menuItems {
+    display: flex;
+    flex-direction: row;
+    gap: 2.2rem;
+}
+
+#menuItems a {
+    text-decoration: none;
+    text-align: center;
+    line-height: 62px;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(236, 13%, 42%)
+}
+
+#menuItems a:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.mainTop {
+    display: flex;
+    width: 1088px;
+    margin-top: 62px;
+    flex-direction: row;
+}
+
+.mainPage {
+    display: flex;
+    flex-direction: column;
+    width: 714px;
+}
+
+.mainImage {
+    width: 714px;
+}
+
+.mainP {
+    width: 714px;
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.mainHdr {
+    width: 340px;
+    height: 200px;
+    margin-top: -3px;
+    font-size: 34px;
+    font-weight: 700;
+    color: hsl(240, 100%, 5%);
+}
+
+.mainPB {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    margin-left: 25px;
+    width: 340px;
+    height: 150px;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(236, 13%, 42%)
+}
+
+.readmoreBtn {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 46.5px;
+    letter-spacing: .2rem;
+    width: 170px;
+    background-color: hsl(5, 85%, 63%);
+    text-align: center;
+    color: hsl(36, 100%, 99%);
+    cursor: pointer;
+    border: none;
+
+}
+
+.readmoreBtn:hover {
+    background-color: hsl(240, 100%, 5%);
+}
+
+.newsBarTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    height: 496px;
+    margin-left: 34px;
+    background-color: hsl(240, 100%, 5%);
+}
+
+.newsBar {
+    width: 300px;
+    height: 418.5px;
+    margin-top: 46.5px;
+    background-color: hsl(240, 100%, 5%);
+}
+
+.newsH {
+    font-size: 25px;
+    font-weight: 700;
+    color: hsl(35, 77%, 62%);
+}
+
+.newsPFirst {
+    margin-top: 32px;
+}
+
+.newsP {
+    margin-top: 31px;
+}
+
+.newsP1 {
+    margin-top: 31px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.newsP1 a {
+    text-decoration: none;
+    color: hsl(36, 100%, 99%);
+}
+
+.newsP1 a:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.newsP2 {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 31px;
+    color: hsl(36, 100%, 99%);
+    opacity: .8;
+}
+
+.hrline {
+    color: hsl(36, 100%, 99%);
+    opacity: .2;
+}
+
+footer {
+    margin-top: 62px;
+    margin-bottom: 124px;
+    width: 1088px;
+    height: 124px;
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+    align-items: center;
+}
+
+.footerNew {
+    display: flex;
+    flex-direction: row;
+    width: 340px;
+    height: 124px;
+}
+
+.footerNew img {
+    height: 124px;
+}
+
+.footerNewPrg {
+    margin-left: 20px;
+    height: 124px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 20px; */
+}
+
+.p1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: -4px;
+    margin-bottom: 12px;
+    color: hsl(233, 8%, 79%);
+}
+
+.p2 {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.p2 a {
+    text-decoration: none;
+    color: hsl(240, 100%, 5%);
+}
+
+.p2 a:hover {
+    color: hsl(5, 85%, 63%);;
+}
+
+.p3 {
+    font-size: 14.6px;
+    font-weight: 400;
+    color: hsl(236, 13%, 42%)
+}
